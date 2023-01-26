@@ -13,16 +13,15 @@ document.write(
     `);
 
 let userName; // initialization
-userName="Aaron"; // assignation
-let userEmail = "someone@gmail.com";
-let salaryMonthly = 10000;
+userName=prompt("Enter your name:"); // assignation
+let userEmail = prompt("Enter your email:");
+let salaryMonthly = prompt("Enter your salary");
 const m = 12; // const doesnt change
 //let yearlySalary = salaryMonthly*m;
-userName="Leah";
 
 
 document.write(`
     <p>Name: ${userName} </p>
     <p>Email: ${userEmail} </p>
     <p>Salary: ${salaryMonthly*m}</p>
-`)
+`);
